@@ -1,0 +1,16 @@
+JPQL - JAVA PERSISTENT QUERY LANGUAGE
+
+- Similar syntax to SQL Query. Reference to entity class and fields inside it.
+
+- The major difference between JPQL Query and SQL Query is that,
+	in SQL Query, we refer to table and columns
+	while in JPA Query, we refer to entity class and fields inside the entity class,
+	as entity class is mapped with table and fields inside the entity class are mapped with columns.
+	
+- Why we need to write JPQL?
+	Sometimes you need to write a query that you cannot achieve by method proxy which is provided by JPA.
+	In this case,
+	you will need to write JPQL.
+	In JPQL - you will refer to entity class and fields inside the entity class then,
+	That query will get converted into SQL query by JPA.
+	In this case we can avoid writing SQL query.
