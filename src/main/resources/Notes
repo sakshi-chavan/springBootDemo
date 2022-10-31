@@ -81,3 +81,26 @@ application.properties file configuration tips:
 
 - By default it is capturing the logs for the last seven days.
 
+
+SPRING ASPECT ORIENTED PROGRAMMING(AOP)
+- Separating the logic and provides modularity.
+- Point Cut : i.e. Which method to intercept?
+	Basically, defining which methods to intercept is Point Cut.
+- Advice : When to intercept method?
+	Before, After, AfterReturning, Around
+- Aspect : Combination of Point Cut and Advice.
+	Which method to intercept and when to intercept is Aspect concept.
+- Join Point : Execution Instance of an Advice.
+
+
+SCHEDULAR OR CRON JOB
+- It performs task at fixed interval.
+- eg. send mail of sales report at every 1hr
+
+
+
+What is Heroku?
+- Heroku is a Platform as a Service(PaaS) Cloud Provider.
+- Own by Salesforce.
+- You can deploy Java, Nodejs, Scala, Python etc applications on Heroku.
+- Apps can be deployed free.
